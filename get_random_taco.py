@@ -51,6 +51,7 @@ def wants_full_recipe(taco):
         print('\nOk here it comes')
         get_full_recipe(taco)
         print('Done. The recipe was created')
+        return "Ok"
     else:
         print('\nOh well. Your loss')
         exit()
